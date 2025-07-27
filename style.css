@@ -1,0 +1,63 @@
+body {
+  background: #181a20;
+  color: #e0e0e0;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+}
+
+.coder-terminal {
+  background: linear-gradient(135deg, #23272e 80%, #00ffae22 100%);
+  box-shadow: 0 4px 32px #00ffae33;
+  border-radius: 1rem;
+  border: 1.5px solid #00ffae44;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.neon {
+  color: #00ffae;
+  text-shadow: 0 0 8px #00ffae88;
+}
+
+.section-title {
+  color: #00ffae;
+  font-size: 2rem;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 6px #00ffae55;
+}
+
+.code-block {
+  background: #23272e;
+  color: #00ffae;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 12px #00ffae22;
+}
+
+.skill-bar {
+  background: #23272e;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.skill-bar-fill {
+  background: linear-gradient(90deg, #00ffae 0%, #00bfae 100%);
+  height: 1.2rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  transition: width 1.2s cubic-bezier(0.4,0,0.2,1);
+}
+
+.animated-cursor {
+  color: #00ffae;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+} 
